@@ -1,0 +1,60 @@
+
+
+
+
+#root {
+  height: 1000px;
+  background-image: url(./../public/glassesImage/background.jpg) !important;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.background {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0000005e;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+  background: #0000006c;
+  color: #fff;
+}
+.glass-img{
+  background: #fff;
+  padding: 30px;
+}
+.glass-img img {
+ 
+  border: 1px solid black;
+  
+}
+.product-detail{
+  background: #e44c06a8;
+  position: absolute;
+  bottom: 0;
+  
+}
+
+.product-detail h3{
+  color: #be08eb;
+}
+.product-detail p{
+  color: #fff;
+}
+.product-glass{
+  position: absolute;
+  top: 25%;
+  left: 26%;
+  opacity: 0.5;
+}
+.product-glass img{
+  width: 170px;
+  height: 60px;
+}
